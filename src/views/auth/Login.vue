@@ -14,7 +14,6 @@
 
 <script>
 import {  mapMutations } from 'vuex'
-
 export default {
   data() {
     return {
@@ -22,30 +21,11 @@ export default {
       password: ""
     };
   },
-//computed:{        
-//...mapState('account', ['status'])},
-
   methods: {
-/*...mapActions('a', ['login', 'logout']),
-    loginForm() {
-      const username= this.username
-      const password= this.password
-      //return this.login({username,password})
-      this.$store.dispatch("login", {
-        username:username,
-        password:password
-      }).then(() => {
-        alert(this.password + this.username)
-        //this.$router.push("/")
-      });
-    }*/
-//...mapActions(['login', 'logout']),
 ...mapMutations(['mutations',['login', 'logout']]),
     loginForm(){
-      //login()
       const name = this.username
       const pass = this.password
-    //  this.$store.dispatch("login", {name, pass})}
     this.$store.commit("login",{name,pass})
     }
   }

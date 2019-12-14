@@ -1,7 +1,5 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
-//import router from '../router/index'
-//import { user } from './user'
 Vue.use(Vuex)
 
 /*
@@ -11,10 +9,12 @@ const LOGOUT = "LOGOUT";*/
 //const user = JSON.parse(localStorage.getItem('user'));
 import state from '../store/state.js'
 import {mutations} from '../store/mutations'
+//* IMPORTA MODULO USER */
 //import User from './user.js'
-export default new Vuex.Store({
 
+export default new Vuex.Store({
 modules:{
+/*EXPORTA MODULO USER*/ 
 //User
 },
 state,
