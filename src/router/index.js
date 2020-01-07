@@ -2,9 +2,9 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import store from '../store'
-import Login from '../components/auth/Login.vue'
-import Register from '../components/auth/Register.vue'
-import usersList from '../components/usersList.vue'
+import Login from '../views/auth/Login.vue'
+import Register from '../views/auth/Register.vue'
+import usersList from '../views/usersList.vue'
 Vue.use(VueRouter)
 
 const routes = [
