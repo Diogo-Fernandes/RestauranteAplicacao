@@ -1,0 +1,26 @@
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #127834 !important;
+    border-color: #127834 !important;
+}
+
+.main{
+    /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#mainPage{
+/* Full height */
+height: 100%;
+  
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 10%;
+
+}

@@ -1,5 +1,49 @@
-<template>
-  <div class="about">
-    <h1>This is an about page</h1>
+<template> 
+   
+<div style="background: url(https://i.postimg.cc/ZnHTP71s/aircraft-airplane-boat-1575833.jpg)" class="about page-holder bg-cover">
+
+  <div class="container py-5">
+    <header class="text-center text-white py-5">
+      <h1 class="display-4 font-weight-bold mb-4">Bootstrap Background Image</h1>
+      <p class="lead mb-0">Create a responsive full-page background image window using Bootstrap 4.</p>
+      <p class="font-italic">Snippet By <a href="https://bootstrapious.com" class="text-white">
+          <u>Bootstrapious</u></a>
+      </p>
+    </header>
+
+    <div class="text-white">
+      <p class="lead">It's not a good approch to deal directly with <code class="bg-white px-2 py-1 rounded">body</code> So, create a wrapper container and make it a full-window height.</p>
+      <p class="lead">Set the wrapper initial height to full window height using <code class="bg-white px-2 py-1 rounded">min-height: 100vh</code></p>
+      <p class="lead">Use <code class="bg-white px-2 py-1 rounded">.bg-cover</code> to make the background fit all viewports.</p>
+    </div>
+
   </div>
+</div>
+
+  
 </template>
+
+<style>
+body, html {
+  height: 100%;
+}
+
+.page-holder {
+  min-height: 100vh;
+}
+
+.bg-cover {
+  background-size: cover !important;
+}
+</style>
+
+<script>
+// @ is an alias to /src
+
+export default {
+  name: 'about',
+  /*components: {
+    
+  } */
+}
+</script>

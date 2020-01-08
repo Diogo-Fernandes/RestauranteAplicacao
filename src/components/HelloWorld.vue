@@ -8,7 +8,7 @@
 <br>
 <router-link to="/register">Registo</router-link>
 
-    <!-- <a href="#" v-if="isLoggedIn" @click="logout">Logout</a>  -->
+    <a href="#" v-if="isLoggedIn" @click="logout">Logout</a> 
   </div>
 </template>
 
