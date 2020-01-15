@@ -2,7 +2,7 @@
 <div>
     <nav class="navbar navbar-expand-md navbar fixed-top border border-success">
       <div id="navBar">
-      <a class="navbar-brand" style="color: #1FBA53" href="#"></a><img id="navbarLogo" src="../assets/navbarLogo.png" alt="">
+      <a class="navbar-brand" style="color: #1FBA53; padding-top: 4px; padding-bottom: 8px" href="#"></a><img id="navbarLogo" src="../assets/navbarLogo.png" alt="">
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
