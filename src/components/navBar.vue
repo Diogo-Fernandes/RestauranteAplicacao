@@ -2,7 +2,7 @@
 <div>
     <nav class="navbar navbar-expand-md navbar fixed-top border border-success">
       <div id="navBar">
-      <a class="navbar-brand" style="color: #1FBA53; padding-top: 4px; padding-bottom: 8px" href="#"></a><img id="navbarLogo" src="../assets/navbarLogo.png" alt="">
+      <router-link to="/"><img id="navbarLogo" src="../assets/navbarLogo2.png" alt=""></router-link>
       </div>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -10,16 +10,16 @@
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" style="color: #127834" href="#">Ementa<span class="sr-only">(current)</span></a>
+            <router-link style="color: #127834" to="/weeklyMenu">Ementa<span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #127834" href="#">Reservar Refeição</a>
+            <router-link style="color: #127834" to="/">Reservar Refeição</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #127834" href="#">Instalações</a>
+            <router-link style="color: #127834" to="/restaurant">Instalações</router-link>
           </li>
           <li class="nav-item">
-            <a class="nav-link" style="color: #127834" href="#">Feedback</a>
+            <router-link style="color: #127834" to="/feedback">Feedback</router-link>
           </li>
         </ul>
           <button class="btn btn btn-primary my-2 my-sm-0" style="background-color: #127834; border-color: #127834">Login</button>
@@ -43,6 +43,7 @@
 .navbar-nav > li{
   padding-left:30px;
   padding-right:5px;
+  padding-top: 15px;
 }
 
 

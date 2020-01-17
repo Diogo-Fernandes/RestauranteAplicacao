@@ -12,7 +12,7 @@
       
     </div>
     <div class="col-sm-8 text-center"> 
-      <img id="mainLogo" src="../assets/logo2.png" alt="Logótipo Temporário" style="transform: scale(0.55); top:2px;">
+      <img id="mainLogo" src="../assets/logo3.png" alt="Logótipo Temporário" style="transform: scale(0.7); top:2px;">
       <div id="mainText">
       <h1 style="color: #127834; font-family:Georgia;">Restaurante Aplicação</h1>
       <hr>
@@ -21,7 +21,7 @@
       </div>
       <div id="buttonScene">
       <div id="flips">
-      <a href="#options"><button class="btn btn btn-primary my-2 my-sm-0 buttonFlip buttonFlip--front" style="background-color: #127834; border-color: #127834">O que é o <br> Restaurante de Aplicação?</button></a>
+      <router-link to="/restaurant"><button class="btn btn btn-primary my-2 my-sm-0 buttonFlip buttonFlip--front" style="background-color: #127834; border-color: #127834">O que é o <br> Restaurante de Aplicação?</button></router-link>
       <!-- <p class="buttonFlip buttonFlip--back">Lol Funciona</p> -->
       </div>
     </div>
@@ -30,10 +30,10 @@
   </div>
   <div class="container">
   <div id="options"  class="row mw-10">
-      <div class="col-sm-3" style="height:100px;"> <a href="#"> <img id="ementaSemanal" class="menuIcons" style="bottom: 120px" src="../assets/ementaSemanal1.png" alt=""></a> </div>
-      <div class="col-sm-3" style="height:100px;"> <a href="#"> <img id="reservarRefeicao" class="menuIcons" style="bottom: 125px" src="../assets/reservarRefeicao1.png" alt=""></a> </div>
-      <div class="col-sm-3" style="height:100px;"> <a href="#"> <img id="instalacoes" class="menuIcons" style="bottom: 62px; left: -116px;" src="../assets/instalacoes.png" alt=""></a> </div>
-      <div class="col-sm-3" style="height:100px;"> <a href="#"> <img id="feedback" class="menuIcons" style="bottom: 70px; left:-81px;" src="../assets/feedback1.png" alt=""></a> </div>
+      <div class="col-sm-3" style="height:100px;"> <router-link to="/weeklyMenu"> <img id="ementaSemanal" class="menuIcons" style="bottom: 120px" src="../assets/ementaSemanal1.png" alt=""></router-link> </div>
+      <div class="col-sm-3" style="height:100px;"> <router-link to="/"> <img id="reservarRefeicao" class="menuIcons" style="bottom: 125px" src="../assets/reservarRefeicao1.png" alt=""></router-link> </div>
+      <div class="col-sm-3" style="height:100px;"> <router-link to="/restaurant"> <img id="instalacoes" class="menuIcons" style="bottom: 62px; left: -116px;" src="../assets/instalacoes.png" alt=""></router-link> </div>
+      <div class="col-sm-3" style="height:100px;"> <router-link to="/feedback"> <img id="feedback" class="menuIcons" style="bottom: 70px; left:-81px;" src="../assets/feedback1.png" alt=""></router-link> </div>
     </div>
   </div>
   

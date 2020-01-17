@@ -17,9 +17,24 @@
       <div class="row">
         <div class="col-md-2" style=""></div>
         <div class="col-md-8" style="">
-          <h1 class="text-center pt-5 pb-4" style="color: #1FBA53;">Carregamento de Carteira</h1>
-          <h6 class="text-center pb-4">Escolha o seu método de pagamento <br></h6>
-          <a id="buttonMultibanco" class="btn btn-outline-success text-center " style="padding: 41px 47px;" href="#cardDetails"><img id="iconMultibanco" src="../assets/multibanco.png" alt=""><br>Cartão de Crédito</a>
+          <h1 class="text-center pt-5 pb-4" style="color: #127834;">Ementa Semanal</h1>
+  <ul class="nav nav-pills nav-fill pt-5">
+          <li class="nav-item border">
+              <a class="nav-link active" href="#">Segunda-Feira</a>
+          </li>
+          <li class="nav-item border">
+              <a class="nav-link" href="#">Terça-Feira</a>
+          </li>
+          <li class="nav-item border">
+            <a class="nav-link" href="#">Quarta-Feira</a>
+          </li>
+          <li class="nav-item border">
+            <a class="nav-link" href="#">Quinta-Feira</a>
+          </li>
+          <li class="nav-item border">
+            <a class="nav-link" href="#">Sexta-Feira</a>
+          </li>
+</ul>
         </div>
   
     
@@ -31,31 +46,28 @@
 
     <section id="formMultibanco" class="outer-wrapper text-center">
 
-  <div class="inner-wrapper">
-<div class="container">
-  <div class="row" style="margin-top: 32px">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4 col-sm-offset-8">
-      <form role="form">
-  <div class="form-group">
-    <label for="exampleInputCard">Número de Cartão</label>
-    <input type="text" class="form-control text-center" id="exampleInputEmail1" placeholder="Insira o número de cartão">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputCVV">CVV</label>
-    <input type="text" class="form-control text-center" id="exampleInputPassword1" placeholder="Insira o CVV">
-  </div>
-   <div class="form-group pb-4">
-    <label for="exampleInputAmount">Quantia</label>
-    <input type="number" class="form-control text-center" id="exampleInputPassword1" placeholder="5.00€">
-    
-  </div>
-  <button class="btn btn btn-primary my-2 my-sm-0" style="background-color: #127834; border-color: #127834">CONFIRMAR PAGAMENTO</button>
-</form>
+
+<div class="py-5">
+    <div class="container pt-5">
+      
+        <ul class="list-group list-group-horizontal">
+  <li class="list-group-item flex-fill">Entrada</li>
+  <li class="list-group-item flex-fill">Sopa</li>
+  <li class="list-group-item flex-fill">Prato Principal</li>
+  <li class="list-group-item flex-fill">Sobremesa</li>
+  
+</ul>
+ <ul class="list-group list-group-horizontal pt-5">
+  <li class="list-group-item flex-fill border-0">Entrada #1</li>
+  <li class="list-group-item flex-fill border-0">Sopa #2</li>
+  <li class="list-group-item flex-fill border-0">Prato Principal #3</li>
+  <li class="list-group-item flex-fill border-0">Sobremesa #4</li>
+  
+</ul>
+      
     </div>
   </div>
-</div>
-</div>
+
 
 </section>
   </div>
@@ -83,12 +95,16 @@
 
 
 
-
+<button type="submit" class="btn btn btn-primary my-2 my-sm-0 btn-lg mt-5" style="background-color: #127834; border-color: #127834">Reservar</button>
 </div>
 </template>
 
 
 <style>
+.navlink > .active{
+  color: white;
+}
+
 #principal {
   font-family: 'Poppins', sans-serif;
 }

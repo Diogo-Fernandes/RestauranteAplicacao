@@ -4,7 +4,9 @@ import Home from '../views/Home.vue'
 import About from '../views/About.vue'
 import Main from '../views/Main.vue'
 import AddFunds from '../views/AddFunds.vue'
+import WeeklyMenu from '../views/WeeklyMenu.vue'
 import Restaurant from '../views/Restaurant.vue'
+import Feedback from '../views/Feedback.vue'
 import store from '../store'
 import Login from '../components/auth/Login.vue'
 import Register from '../components/auth/Register.vue'
@@ -23,10 +25,21 @@ const routes = [
     component: AddFunds
   },
   {
+    path: '/weeklyMenu',
+    name: 'weeklyMenu',
+    component: WeeklyMenu
+  },
+  {
     path: '/restaurant',
     name: 'restaurant',
     component: Restaurant
   },
+  {
+    path: '/feedback',
+    name: 'feedback',
+    component: Feedback
+  },
+  
   {
     path: '/about',
     name: 'about',

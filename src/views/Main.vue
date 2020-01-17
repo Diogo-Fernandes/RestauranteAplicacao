@@ -25,7 +25,7 @@
       <button class="btn btn btn-primary my-2 my-sm-0" style="background-color: #127834; border-color: #127834">O que é o <br> Restaurante de Aplicação?</button>
     
     <div id="options" class="row">
-      <div class="col-sm-3"> <a href="#"> <img id="ementaSemanal" class="menuIcons" style="bottom: 120px" src="../assets/ementaSemanal1.png" alt=""></a> </div>
+      <div class="col-sm-3"> <router-link to="/"> <img id="ementaSemanal" class="menuIcons" style="bottom: 120px" src="../assets/ementaSemanal1.png" alt=""></router-link> </div>
       <div class="col-sm-3"> <a href="#"> <img id="reservarRefeicao" class="menuIcons" style="bottom: 125px" src="../assets/reservarRefeicao1.png" alt=""></a> </div>
       <div class="col-sm-3"> <a href="#"> <img id="instalacoes" class="menuIcons" style="bottom: 62px; left: -116px;" src="../assets/instalacoes.png" alt=""></a> </div>
       <div class="col-sm-3"> <a href="#"> <img id="feedback" class="menuIcons" style="bottom: 70px; left:-81px;" src="../assets/feedback1.png" alt=""></a> </div>
