@@ -8,12 +8,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
+        <!-- mx-md-auto faz os elementos da navbar centrarem -->
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
             <router-link style="color: #127834" to="/weeklyMenu">Ementa<span class="sr-only">(current)</span></router-link>
           </li>
           <li class="nav-item">
-            <router-link style="color: #127834" to="/">Reservar Refeição</router-link>
+            <router-link style="color: #127834" to="/reservation">Reservar Refeição</router-link>
           </li>
           <li class="nav-item">
             <router-link style="color: #127834" to="/restaurant">Instalações</router-link>
@@ -22,6 +23,8 @@
             <router-link style="color: #127834" to="/feedback">Feedback</router-link>
           </li>
         </ul>
+
+          <router-link style="color: #127834" to="/addFunds">Saldo: {user.saldo}</router-link>
           <button class="btn btn btn-primary my-2 my-sm-0" style="background-color: #127834; border-color: #127834">Login</button>
       </div>
     </nav>
@@ -36,6 +39,7 @@
 }
 
 .navbar {
+  text-align: center;
   min-height: 80px;
   background-color: white;
   font-family: 'Poppins', sans-serif;

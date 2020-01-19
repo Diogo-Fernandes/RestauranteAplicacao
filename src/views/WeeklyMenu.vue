@@ -20,7 +20,7 @@
           <h1 class="text-center pt-5 pb-4" style="color: #127834;">Ementa Semanal</h1>
   <ul class="nav nav-pills nav-fill pt-5">
           <li class="nav-item border">
-              <a class="nav-link active" href="#">Segunda-Feira</a>
+              <a class="nav-link" href="#">Segunda-Feira</a>
           </li>
           <li class="nav-item border">
               <a class="nav-link" href="#">Terça-Feira</a>

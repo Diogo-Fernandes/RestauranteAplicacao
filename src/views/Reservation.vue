@@ -17,8 +17,8 @@
       <div class="row">
         <div class="col-md-2" style=""></div>
         <div class="col-md-8" style="">
-          <h1 class="text-center pt-5 pb-4" style="color: #127834;">Feedback</h1>
-          <h6 class="text-center pb-4">Reservas anteriores<br></h6>
+          <h1 class="text-center pt-5 pb-4" style="color: #127834;">Reservar Refeição</h1>
+          
         </div>
   
     
@@ -31,12 +31,17 @@
 <div class="container">
             <div class="row blog">
                 <div class="col-md-12">
+                  <p for="exampleInputCard">Número de pessoas</p>
                     <div id="blogCarousel" class="carousel slide" data-ride="carousel">
-
-                        <ol class="carousel-indicators" style="margin-bottom: -35px">
-                            <li style="background-color: #127834;" data-target="#blogCarousel" data-slide-to="0" class="active"></li>
-                            <li style="background-color: #127834;" data-target="#blogCarousel" data-slide-to="1"></li>
-                        </ol>
+                        
+                        <a class="carousel-control-prev" href="#blogCarousel" role="button" data-slide="prev">
+                          <span class="carousel-control-prev-icon"  style="background-color:#127834"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#blogCarousel" role="button" data-slide="next">
+                          <span class="carousel-control-next-icon border"  style="background-color:#127834"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
 
                         <!-- Carousel items -->
                         <div class="carousel-inner">
@@ -48,8 +53,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Almoço</h4>
-                                                <p class="text-center">terça-feira, 2 nov.</p>
+                                                <h4 class="text-center">1</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -58,8 +63,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Jantar</h4>
-                                                <p class="text-center">quarta-feira, 3 nov.</p>
+                                                <h4 class="text-center">2</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -68,8 +73,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Almoço</h4>
-                                                <p class="text-center">segunda-feira, 8 nov.</p>
+                                                <h4 class="text-center">3</h4>
+                                               
                                               </div>
                                             </div> 
                                         </a>
@@ -78,8 +83,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Almoço</h4>
-                                                <p class="text-center">sexta-feira, 17 nov.</p>
+                                                <h4 class="text-center">4</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -95,8 +100,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Jantar</h4>
-                                                <p class="text-center">quarta-feira, 3 nov.</p>
+                                                <h4 class="text-center">5</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -105,8 +110,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Jantar</h4>
-                                                <p class="text-center">quarta-feira, 3 nov.</p>
+                                                <h4 class="text-center">6</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -115,8 +120,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Jantar</h4>
-                                                <p class="text-center">quarta-feira, 3 nov.</p>
+                                                <h4 class="text-center">7</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -125,8 +130,8 @@
                                         <a href="#">
                                             <div class="card">
                                               <div class="card-body" style="max-width:100%;" >
-                                                <h4 class="text-center">Jantar</h4>
-                                                <p class="text-center">quarta-feira, 3 nov.</p>
+                                                <h4 class="text-center">8</h4>
+                                                
                                               </div>
                                             </div> 
                                         </a>
@@ -137,8 +142,8 @@
                             <!--.item-->
 
                         </div>
-                        
                         <!--.carousel-inner-->
+                      
                     </div>
                     <!--.Carousel-->
 
@@ -152,24 +157,103 @@
   <div class="inner-wrapper">
 <div class="container">
   <div class="row" style="margin-top: 32px">
-    <div class="col-sm-4"></div>
-    <div class="col-sm-4 col-sm-offset-8">
+    <div class="col-md-12">
       <form role="form">
   <div class="form-group">
-    <p for="exampleInputCard">Como estava a comida?</p>
-    <button class="btn btn-outline-success rating ratingFood">1</button><button class="btn btn-outline-success rating">2</button><button class="btn btn-outline-success rating">3</button><button class="btn btn-outline-success rating">4</button><button class="btn btn-outline-success rating">5</button>
-  </div>
-  <div class="form-group">
-    <p>Como foi o serviço?</p>
-    <button class="btn btn-outline-success rating ratingService">1</button><button class="btn btn-outline-success rating">2</button><button class="btn btn-outline-success rating">3</button><button class="btn btn-outline-success rating">4</button><button class="btn btn-outline-success rating">5</button>
-  </div>
-   <div class="form-group pb-4">
-    <p>Como estava o ambiente?</p>
-    <button class="btn btn-outline-success rating ratingEnvironment">1</button><button class="btn btn-outline-success rating">2</button><button class="btn btn-outline-success rating">3</button><button class="btn btn-outline-success rating">4</button><button class="btn btn-outline-success rating">5</button>
-    <!-- as classes ratingFood, ratingService e ratingEnvironment são para criar um JS para que os botões permaneçam "clicados" -->
+    <div class="container">
+  
+  <p>Data</p>
+  
+  <div class="row">
+    
+      <div class="col-md-4 col-lg-4 col-sm-4">
+        
+        <label>
+          <input type="radio" name="date" class="card-input-element" />
 
+            <div class="panel panel-default card-input border">
+              <div class="panel-heading"><b>Hoje</b></div>
+              <div class="panel-body">
+                15 de Janeiro
+              </div>
+            </div>
+
+        </label>
+        
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-4">
+        
+        <label>
+          <input type="radio" name="date" class="card-input-element" />
+
+            <div class="panel panel-default card-input border">
+              <div class="panel-heading">Amanhã</div>
+              <div class="panel-body">
+                16 de Janeiro
+              </div>
+            </div>
+        </label>
+        
+      </div>
+      <div class="col-md-4 col-lg-4 col-sm-4">
+        
+        <label>
+          <input type="radio" name="date" class="card-input-element" />
+
+            <div class="panel panel-default card-input border">
+              <div class="panel-heading">Sexta-Feira</div>
+              <div class="panel-body">
+                17 de Janeiro
+              </div>
+            </div>
+        </label>
+        
+      </div>
   </div>
-  <button type="submit" class="btn btn btn-primary my-2 my-sm-0" style="background-color: #127834; border-color: #127834">Enviar feedback</button>
+  
+</div>
+  </div>
+
+  <div class="form-group">
+    <div class="container">
+  
+  <p>Tipo de Serviço</p>
+  
+  <div class="row">
+    
+      <div class="col-md-6 col-lg-6 col-sm-6">
+        
+        <label>
+          <input type="radio" name="service" class="card-input-element" />
+
+            <div class="panel panel-default card-input border p-3">
+              <div class="panel-body">
+                Almoço
+              </div>
+            </div>
+
+        </label>
+        
+      </div>
+      <div class="col-md-6 col-lg-6 col-sm-6">
+        
+        <label>
+          <input type="radio" name="service" class="card-input-element" />
+
+            <div class="panel panel-default card-input border p-3">
+              <div class="panel-body">
+                Jantar
+              </div>
+            </div>
+        </label>
+      </div>
+  </div>
+  
+</div>
+    
+  </div>
+
+  <router-link to="/confirmation"> <button type="submit" class="btn btn btn-primary my-2 my-sm-0 p-2" style="background-color: #127834; border-color: #127834;">Continuar</button></router-link>
 </form>
     </div>
   </div>
@@ -190,21 +274,28 @@
 
 
 <style>
-.rating{
-  border-radius: 8px;
-  background-color: #127834; /* Green */
-  border: none;
-  color: white;
-  padding: 6px;
-  padding-right: 15px;
-  padding-left: 15px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
+label {
+    width: 100%;
 }
+
+.card-input-element {
+    display: none;
+}
+
+.card-input {
+    margin: 10px;
+    padding: 00px;
+}
+
+.card-input:hover {
+    cursor: pointer;
+}
+
+.card-input-element:checked + .card-input {
+     box-shadow: 0 0 1px 1px #2ecc71;
+ }
+
+
 #principal {
   font-family: 'Poppins', sans-serif;
 }

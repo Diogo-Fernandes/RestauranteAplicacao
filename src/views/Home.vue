@@ -31,7 +31,7 @@
   <div class="container">
   <div id="options"  class="row mw-10">
       <div class="col-sm-3" style="height:100px;"> <router-link to="/weeklyMenu"> <img id="ementaSemanal" class="menuIcons" style="bottom: 120px" src="../assets/ementaSemanal1.png" alt=""></router-link> </div>
-      <div class="col-sm-3" style="height:100px;"> <router-link to="/"> <img id="reservarRefeicao" class="menuIcons" style="bottom: 125px" src="../assets/reservarRefeicao1.png" alt=""></router-link> </div>
+      <div class="col-sm-3" style="height:100px;"> <router-link to="/reservation"> <img id="reservarRefeicao" class="menuIcons" style="bottom: 125px" src="../assets/reservarRefeicao1.png" alt=""></router-link> </div>
       <div class="col-sm-3" style="height:100px;"> <router-link to="/restaurant"> <img id="instalacoes" class="menuIcons" style="bottom: 62px; left: -116px;" src="../assets/instalacoes.png" alt=""></router-link> </div>
       <div class="col-sm-3" style="height:100px;"> <router-link to="/feedback"> <img id="feedback" class="menuIcons" style="bottom: 70px; left:-81px;" src="../assets/feedback1.png" alt=""></router-link> </div>
     </div>
